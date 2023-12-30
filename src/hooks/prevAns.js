@@ -1,7 +1,7 @@
 import React from "react";
 import { useMutation } from "react-query";
 import PrevAnsService from "../services/PrevAnsService";
-import { useStateValue } from "../context/Provider";
+import { useStateValue } from "../Provider";
 import { actions } from "../constant/actions";
 
 function usePrevAns() {

@@ -1,7 +1,7 @@
 import { useContext, useReducer } from "react";
-import reducers from "../reducers";
-import { YobiContext } from "./createContext";
-import { initialState } from "./state";
+import reducers from "./reducers";
+import { YobiContext } from "./context/createContext";
+import { initialState } from "./context/state";
 
 let YobiProvider = ({ children }) => {
   return (

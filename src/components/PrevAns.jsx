@@ -1,6 +1,6 @@
 import React from "react";
 import icon from "../assets/icon.png";
-import { useStateValue } from "../context/Provider";
+import { useStateValue } from "../Provider";
 import { formateDate } from "../utils/helper";
 
 function PrevAns() {

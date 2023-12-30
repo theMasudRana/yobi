@@ -1,7 +1,7 @@
 import React from "react";
 import { ChatWidget } from "@papercups-io/chat-widget";
 import usePrevAns from "../hooks/prevAns";
-import { useStateValue } from "../context/Provider";
+import { useStateValue } from "../Provider";
 import { actions } from "../constant/actions";
 
 function ChatWidgets() {
