@@ -4,11 +4,11 @@ import { YobiContext } from "./context/createContext";
 import { initialState } from "./context/state";
 
 let YobiProvider = ({ children }) => {
-	return (
-		<YobiContext.Provider value={useReducer(reducers, initialState)}>
-			{children}
-		</YobiContext.Provider>
-	);
+  return (
+    <YobiContext.Provider value={useReducer(reducers, initialState)}>
+      {children}
+    </YobiContext.Provider>
+  );
 };
 
 export const useStateValue = () => useContext(YobiContext);
