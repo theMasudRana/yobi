@@ -22,7 +22,7 @@ function PrevAns() {
 						<p className="previous-question inline-flex justify-between items-center gap-8">
 							{prevAns?.question
 								? prevAns?.question
-								: "What is your favorite fruit?"}
+								: "Ask a question to see previous answers"}
 							<span className="uppercase bg-[#8B979E] rounded-full w-8 h-8 flex items-center justify-center">
 								C
 							</span>
