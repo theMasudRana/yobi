@@ -7,30 +7,30 @@ import PrevAns from "./components/PrevAns";
 import YobiProvider from "./context/Provider";
 
 function App() {
-  const queryClient = new QueryClient();
+	const queryClient = new QueryClient();
 
-  return (
-    <YobiProvider>
-      <QueryClientProvider client={queryClient}>
-        <div className="wrapper">
-          <header>
-            <div className="logo">
-              <img src={oipLogo} alt="OIP logo" />
-            </div>
+	return (
+		<YobiProvider>
+			<QueryClientProvider client={queryClient}>
+				<div className="wrapper">
+					<header>
+						<div className="logo">
+							<img src={oipLogo} alt="OIP logo" />
+						</div>
 
-            <div className="title">
-              <h1 className="text-[#0693E3] text-3xl md:text-4xl lg:text-6xl leading-normal">
-                Chat with the Synths – Demo Edition
-              </h1>
-            </div>
+						<div className="title">
+							<h1 className="text-[#0693E3] text-3xl md:text-4xl lg:text-6xl leading-normal">
+								Chat with the Synths – Demo Edition
+							</h1>
+						</div>
 
-            <PrevAns />
-          </header>
-          <ChatWidgets />
-        </div>
-      </QueryClientProvider>
-    </YobiProvider>
-  );
+						<PrevAns />
+					</header>
+					<ChatWidgets />
+				</div>
+			</QueryClientProvider>
+		</YobiProvider>
+	);
 }
 
 export default App;
