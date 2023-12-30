@@ -10,10 +10,10 @@ function usePrevAns() {
     return useMutation({
       mutationFn: (data) => PrevAnsService.getPrevAns(data),
       onError: (error) => {
-        console.log(error);
+        // console.log(error);
       },
       onSuccess: (data) => {
-        console.log(data);
+        // console.log(data);
         const res = data?.data?.results?.map((item) => {
           return {
             content: item?.data?.body[0]?.content,

@@ -10,18 +10,18 @@ function ChatWidgets() {
   const [{ prevAns }, dispatch] = useStateValue();
 
   const chatLoaded = () => {
-    console.log("Chat loaded!");
+    // console.log("Chat loaded!");
   };
   const chatOpened = () => {
-    console.log("Chat opened!");
+    // console.log("Chat opened!");
   };
 
   const chatClosed = () => {
-    console.log("Chat closed!");
+    // console.log("Chat closed!");
   };
 
   const sentMessage = (message) => {
-    console.log("Message sent!", message);
+    // console.log("Message sent!", message);
     const data = {
       tenant_ids: [21426, 21427],
       search_word: message?.body,
@@ -34,7 +34,7 @@ function ChatWidgets() {
   };
 
   const recivedMessage = (m) => {
-    console.log("Message received!", m);
+    // console.log("Message received!", m);
   };
 
   return (

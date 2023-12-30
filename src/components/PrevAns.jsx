@@ -6,7 +6,7 @@ import { formateDate } from "../utils/helper";
 function PrevAns() {
   const [{ prevAns }, dispatch] = useStateValue();
 
-  console.log("prevAns", prevAns);
+  // console.log("prevAns", prevAns);
 
   if (!prevAns?.prevAns?.length || prevAns?.question == "") return null;
 

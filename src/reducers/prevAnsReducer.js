@@ -23,7 +23,6 @@ export const prevAnsReducer = (state, action) => {
 
     default:
       const { payload } = action;
-      console.log("default", payload, action);
 
       return state;
   }
