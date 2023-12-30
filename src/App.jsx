@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import "./App.css";
 import ChatWidgets from "./components/ChatWidget";
 import PrevAns from "./components/PrevAns";
-import YobiProvider from "@/context/Provider";
+import YobiProvider from "./context/Provider";
 
 function App() {
   const queryClient = new QueryClient();
