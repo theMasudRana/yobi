@@ -1,0 +1,7 @@
+export const actions = {
+  SET_LOADING: "SET_LOADING",
+
+  SET_STATE: "SET_STATE",
+  SET_QUESTION: "SET_QUESTION",
+  SET_ANSWER: "SET_ANSWER",
+};
