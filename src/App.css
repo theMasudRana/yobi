@@ -47,3 +47,7 @@
 	max-height: 460px;
 	overflow-y: scroll;
 }
+
+.avatar {
+	flex: 0 0 32px;
+}

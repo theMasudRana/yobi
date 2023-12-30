@@ -1,14 +1,9 @@
-import React from "react";
 import icon from "../assets/icon.png";
 import { useStateValue } from "../context/Provider";
 import { formateDate } from "../utils/helper";
 
 function PrevAns() {
 	const [{ prevAns }, dispatch] = useStateValue();
-
-	console.log("prevAns", prevAns);
-
-	// if (!prevAns?.prevAns?.length || prevAns?.question == "") return null;
 
 	return (
 		<>
